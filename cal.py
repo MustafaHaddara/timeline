@@ -26,7 +26,7 @@ def get_events(uname, pwd):
 	xml_resp = login.grab_calendar(uname, pwd, time_current)
 	raw_events = html.get_events(xml_resp)
 	for event in raw_events:
-		for i in range(12):
+		for i in range(-1, 12):
 			if i == 0:
 				events.append(event)
 				continue;
