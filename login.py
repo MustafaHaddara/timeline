@@ -36,12 +36,8 @@ def grab_calendar(uname, pwd, date):
 
 	with requests.Session() as s:
 		get_login = s.get('https://epprd.mcmaster.ca/psp/prepprd/?cmd=login', headers=headers)
-		# headers['Content-Length'] = len(payload)
 		response = s.post(url, data=payload, params=querystring, headers=headers)
-		# headers['Content-Length'] = len(payload2)
 		cal = s.post(url2, data=payload2, headers=headers)
-		print cal.request.headers
-		print cal.request.body
 
 		with open('data.xml', 'w') as o:
 			o.write(cal.text.encode('utf-8'))
