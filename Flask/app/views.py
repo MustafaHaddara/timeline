@@ -1,10 +1,14 @@
-from flask import render_template, flash, redirect
+from flask import render_template, flash, redirect, Response
 from app import app
 from .forms import LoginForm
 import sys
 import os
 sys.path.append(os.path.abspath('..'))
 import cal
+
+uname=""
+pwd=""
+downloaded=False
 
 @app.route('/about')
 def about():
@@ -13,18 +17,33 @@ def about():
 
 @app.route('/downloading')
 def downloading():
-	return render_template('downloading.html', title='Downloading')
+	global downloaded
+	if downloaded:
+		downloaded = False
+		return get_file()
+	else:
+		downloaded = True
+		return render_template('downloading.html', title='Downloading')
 
+# @app.route('/file')
+def get_file():
+	global uname, pwd
+	file_data = cal.build_cal(uname, pwd)
+	old_name = uname
+	uname = ""
+	pwd = ""
+	generator = (line for line in file_data)
+	return Response(generator, mimetype="text/calendar", headers={"Content-Disposition":"attachment;filename=%s.ics" % (old_name)})
 
 @app.route('/', methods = ['GET','POST'])
 @app.route('/login', methods = ['GET', 'POST'])
 def login():
+	global uname, pwd
 	form = LoginForm()
 	if form.validate_on_submit():
-		print "macid:", form.macid.data
-		print "passw:", form.password.data
-		return cal.build_cal(form.macid.data, form.password.data)
-		#return redirect('/downloading')
+		uname = form.macid.data
+		pwd = form.password.data
+		return redirect('/downloading')
 	else:
 		flash("Invalid Login, please try again")
 	return render_template('login.html', title='Sign In', form=form)

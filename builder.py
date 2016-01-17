@@ -31,7 +31,8 @@ def writeCalendarEvents(events, filename):
 
 		cal.add_component(iCalEvent)
 
-	with open(filename, 'wb') as f:
-		f.write(cal.to_ical())
+	# with open(filename, 'wb') as f:
+	# 	f.write(cal.to_ical())
 
 	print 'Done'
+	return cal.to_ical()

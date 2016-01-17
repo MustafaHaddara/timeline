@@ -26,9 +26,35 @@ p {
 	color: #3972c4;
 }
 </style>
+<script>
+setTimeout(function() {
+	window.location.reload();
+}, 500);
+</script>
 	<html>
 	<head>
 		<title>Downloading</title>
+		<!-- <script>
+			var xmlHttp = new XMLHttpRequest();
+		    xmlHttp.onreadystatechange = function() { 
+		        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+		            // callback(xmlHttp.responseText);
+		        	function download(filename, xmlHttp.responseText) {
+					  var element = document.createElement('a');
+					  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+					  element.setAttribute('download', filename);
+
+					  element.style.display = 'none';
+					  document.body.appendChild(element);
+
+					  element.click();
+
+					  document.body.removeChild(element);
+		    }
+		    xmlHttp.timeout = 10000;
+		    xmlHttp.open("GET", '/file', true); // true for asynchronous 
+		    xmlHttp.send(null);
+		</script> -->
 	</head>
 	<body>
 		<h1>Thank you for downloading Timeline.</h1>

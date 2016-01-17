@@ -16,7 +16,7 @@ import login
 
 def build_cal(uname, pwd):
 	events = get_events(uname, pwd)
-	builder.writeCalendarEvents(events, 'built.ics')
+	return builder.writeCalendarEvents(events, 'built.ics')
 
 def get_events(uname, pwd):
 	time_delta = timedelta(days=7)  # 1 week
