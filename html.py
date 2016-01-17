@@ -13,7 +13,6 @@ DAYS = []
 
 def get_events(xml_data):
 	parsed = BeautifulSoup(xml_data, 'html.parser')
-
 	# only one page
 	page = parsed.find_all('page')[0]
 	# only one field
@@ -25,10 +24,6 @@ def get_events(xml_data):
 
 	cdata = field.contents[0]
 	parsed = BeautifulSoup(cdata, 'html.parser')
-	# print '\n'*50
-	# print parsed
-	# sys.exit()
-	# print parsed
 	table = parsed.find(id='WEEKLY_SCHED_HTMLAREA')
 	rows = table.find_all('tr')
 
@@ -48,14 +43,11 @@ def get_events(xml_data):
 		for idx, cell in enumerate(cells):
 			sp = cell.find_all('span')
 			if len(sp) > 0 and 'SSSTEXTWEEKLY' in sp[0]['class']:
-				# print 'day:', DAYS[idx]
 				contents = sp[0].contents 
 				sub_contents = contents[1].contents
-				name = contents[0] + ' ' + sub_contents[0]  # course + lecture
+				name = contents[0] + ' ' + sub_contents[0]
 				time = sub_contents[1].contents[0]
 				start, end = build_date(time, DAYS[idx])
-				print start
-				# print end
 				location = sub_contents[1].contents[1].text
 				e = Event(name, location, start, end)
 				events.append(e)
@@ -71,7 +63,6 @@ def build_date(time, day):
 	start, end = time.split(' - ')
 	start = zero_pad(start)
 	end = zero_pad(end)
-	# print basetime + start
 	starttime = datetime.strptime(basetime + start, dateformat)
 	endtime = datetime.strptime(basetime + end, dateformat)
 	return starttime, endtime
