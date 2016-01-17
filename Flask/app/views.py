@@ -4,7 +4,6 @@ from .forms import LoginForm
 import sys
 import os
 sys.path.append(os.path.abspath('..'))
-print sys.path
 import cal
 
 @app.route('/about')

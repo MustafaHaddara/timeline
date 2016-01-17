@@ -4,10 +4,6 @@
 from datetime import datetime, timedelta
 import sys
 import os
-sys.path.append('~/timeline')
-#sys.path.append(os.path.abspath('Cal')
-#sys.path.append('HTML')
-#sys.path.append('Mosaic')
 
 # third party imports
 # none
