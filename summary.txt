@@ -1,0 +1,7 @@
+## login to mosaic and get the html
+## parse html into dates
+## write dates to ical
+## web app
+
+## front end
+## hosting

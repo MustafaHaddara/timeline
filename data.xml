@@ -1,0 +1,733 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<PAGE id='blank'><GENSCRIPT id='script'><![CDATA[var oWin=window;
+ var oDoc = window.document;
+oWin.strCurrUrl='https://csprd.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.SSR_SSENRL_SCHD_W.GBL?AS_OF_DATE=2016-01-17&EMPLID=001320408&PAGE=SSR_SS_WEEK';
+]]></GENSCRIPT><GENSCRIPT id='script'><![CDATA[oWin.gridRowSelRgbColor_win0 ="rgb(212,219,217)";
+]]></GENSCRIPT><GENJS id='script'><![CDATA[net2.arrSrcScriptApp = ['/cs/prcsprd/cache/PT_CALENDARSCRIPT1_MIN_1.js','/cs/prcsprd/cache/PT_CALENDARSCRIPT_win0_MIN_1.js'];
+]]></GENJS><GENSCRIPT id='onloadScript'><![CDATA[var pt_pageinfo = document.getElementById('pt_pageinfo_win0');
+if (pt_pageinfo) {
+pt_pageinfo.setAttribute('Page', 'SSR_SS_WEEK');
+pt_pageinfo.setAttribute('Component', 'SSR_SSENRL_SCHD_W');
+pt_pageinfo.setAttribute('Menu', 'SA_LEARNER_SERVICES');
+}
+
+ g_bAccessibilityMode=false; 
+UpdateBreadCrumbs();
+runOnloadScript_win0(true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,1,'ICFocus',false,true);
+HelppopupObj_win0.StopPopup();
+
+doModalOnLoad_win0(false, false);
+ResetGlyph_win0();
+self.scroll(0,0);
+objToBeFocus = null;
+LoadCalendar();
+if (typeof oWin == 'undefined') setEventHandlers_win0('ICFirstAnchor_win0', 'ICLastAnchor_win0', false);
+ else
+ oWin.setEventHandlers_win0('ICFirstAnchor_win0', 'ICLastAnchor_win0', false);
+setFocus_win0('DERIVED_SSTSNAV_SSTS_MAIN_GOTO$22$',-1);
+processing_win0(0,3000);]]></GENSCRIPT>
+<FIELD id='win0divPSHIDDENFIELDS'><![CDATA[<input type='hidden' name='ICType' id='ICType' value='Panel' />
+<input type='hidden' name='ICElementNum' id='ICElementNum' value='0' />
+<input type='hidden' name='ICStateNum' id='ICStateNum' value='1' />
+<input type='hidden' name='ICAction' id='ICAction' value='None' />
+<input type='hidden' name='ICXPos' id='ICXPos' value='0' />
+<input type='hidden' name='ICYPos' id='ICYPos' value='0' />
+<input type='hidden' name='ResponsetoDiffFrame' id='ResponsetoDiffFrame' value='-1' />
+<input type='hidden' name='TargetFrameName' id='TargetFrameName' value='None' />
+<input type='hidden' name='FacetPath' id='FacetPath' value='None' />
+<input type='hidden' name='ICFocus' id='ICFocus' value='' />
+<input type='hidden' name='ICSaveWarningFilter' id='ICSaveWarningFilter' value='0' />
+<input type='hidden' name='ICChanged' id='ICChanged' value='-1' />
+<input type='hidden' name='ICResubmit' id='ICResubmit' value='0' />
+<input type='hidden' name='ICSID' id='ICSID' value='Jz3TF346xhp9xU4wer7/hHZkGQv9feN9lBE7/rV2r9c=' />
+<input type='hidden' name='ICActionPrompt' id='ICActionPrompt' value='false' />
+<input type='hidden' name='ICFind' id='ICFind' value='' />
+<input type='hidden' name='ICAddCount' id='ICAddCount' value='' />
+<input type='hidden' name='ICAPPCLSDATA' id='ICAPPCLSDATA' value='' />
+]]></FIELD>
+<FIELD id='win0divPSPANELTABS'><![CDATA[]]>
+</FIELD>
+<FIELD id='win0divPAGECONTAINER'><![CDATA[<table class='PSPAGECONTAINER' ><tr><td>
+<DIV id='win0divPSPAGECONTAINER'><table  border='0' id='ACE_width' cellpadding='0' cellspacing='0' class='PSPAGECONTAINER' cols='12' width='781'>
+<tr>
+<td width='0' height='3'></td>
+<td width='4'></td>
+<td width='4'></td>
+<td width='4'></td>
+<td width='40'></td>
+<td width='52'></td>
+<td width='318'></td>
+<td width='214'></td>
+<td width='20'></td>
+<td width='48'></td>
+<td width='67'></td>
+<td width='10'></td>
+</tr>
+<tr>
+<td height='108'></td>
+<td colspan='7'  valign='top' align='left'>
+<DIV id='win0divDERIVED_REGFRM1_GROUP_BOX'><table cellpadding='2' cellspacing='0' cols='1'  class='PABACKGROUNDINVISIBLEWBO'  width='635'>
+<tr><td width='633'>
+<table  border='0' id='ACE_DERIVED_REGFRM1_GROUP_BOX' cellpadding='0' cellspacing='0' cols='4' width='633' class='PABACKGROUNDINVISIBLE' style='border-style:none' >
+<tr>
+<td width='3' height='0'></td>
+<td width='10'></td>
+<td width='610'></td>
+<td width='10'></td>
+</tr>
+<tr>
+<td height='93'></td>
+<td colspan='2'  valign='top' align='left'>
+<DIV id='win0divDERIVED_SSTSNAV_GROUP_BOX'><table cellpadding='2' cellspacing='0' cols='1'  class='PABACKGROUNDINVISIBLEWBO'  width='619'>
+<tr><td width='617'>
+<table  border='0' id='ACE_DERIVED_SSTSNAV_GROUP_BOX' cellpadding='0' cellspacing='0' cols='7' width='617' class='PABACKGROUNDINVISIBLE' style='border-style:none' >
+<tr>
+<td width='7' height='0'></td>
+<td width='1'></td>
+<td width='1'></td>
+<td width='422'></td>
+<td width='180'></td>
+<td width='1'></td>
+<td width='5'></td>
+</tr>
+<tr>
+<td height='3' colspan='4'></td>
+<td rowspan='2'  valign='top' align='left'>
+<DIV id='win0divDERIVED_SSTSNAV_SSTS_MAIN_GOTO'><table cellpadding='2' cellspacing='0' cols='1'  class='PABACKGROUNDINVISIBLEWBO'  width='179'>
+<tr><td width='177'>
+<table  border='0' id='ACE_DERIVED_SSTSNAV_SSTS_MAIN_GOTO' cellpadding='0' cellspacing='0' cols='3' width='177' class='PABACKGROUNDINVISIBLE' style='border-style:none' >
+<tr>
+<td width='7' height='0'></td>
+<td width='148'></td>
+<td width='22'></td>
+</tr>
+<tr>
+<td height='1' colspan='2'></td>
+<td rowspan='2' nowrap='nowrap'  valign='top' align='left'>
+<DIV id='win0divDERIVED_SSTSNAV_GO'><a name='DERIVED_SSTSNAV_GO' id='DERIVED_SSTSNAV_GO' tabindex='24' href="javascript:submitAction_win0(document.win0,'DERIVED_SSTSNAV_GO');"><img src='/cs/prcsprd/cache/PT_NAV_GO_1.gif' name='DERIVED_SSTSNAV_GO$IMG' alt='GO!'title='GO!'border='0' /></a>
+</DIV></td>
+</tr>
+<tr>
+<td height='22'></td>
+<td  valign='top' align='left'>
+<DIV id='win0divDERIVED_SSTSNAV_SSTS_MAIN_GOTO$22$'><select name='DERIVED_SSTSNAV_SSTS_MAIN_GOTO$22$' id='DERIVED_SSTSNAV_SSTS_MAIN_GOTO$22$' tabindex='23' size='1'  class='PSDROPDOWNLIST' style='width:148px; '  PSnchg='0'>
+<option value="0300">Account Inquiry</option>
+<option value="0200">My Academics</option>
+<option value="0100">Student Center</option>
+<option value="9999" selected='selected'>go to ...</option>
+</select>
+</DIV></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='25' colspan='3'></td>
+<td rowspan='2'  valign='top' align='left'>
+<DIV id='win0divDERIVED_SSTSNAV_PERSON_NAME'><span  class='PALEVEL0PRIMARY' id='DERIVED_SSTSNAV_PERSON_NAME'>Sherine Soliman</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='5' colspan='3'></td>
+</tr>
+<tr>
+<td height='28'></td>
+<td  valign='top' align='left'>
+<DIV id='win0divDERIVED_SSTSNAV_SSTS_NAV_TABS_DIS'><div style="width:1px; " >
+<!-- Begin HTML Area Name Undisclosed -->
+
+<!-- End HTML Area -->
+</div>
+</DIV></td>
+<td colspan='4'  valign='top' align='left'>
+<DIV id='win0divDERIVED_SSTSNAV_SSTS_NAV_TABS'><div style="width:604px; " >
+<!-- Begin HTML Area Name Undisclosed -->
+<table width=100% border="0" cellspacing="0" cellpadding="0"><tr><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_TOP_IMG_1.gif" style="display:block;" width="8" height="6"></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_CENTERTOP_IMG_1.gif" style="display:block;" height="6" class="SSSTABWIDTH"></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_TOP_IMG_1.gif" style="display:block;" width="8" height="6"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_TOP_IMG_1.gif" style="display:block;" width="8" height="6"></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_CENTERTOP_IMG_1.gif" style="display:block;" height="6" class="SSSTABWIDTH"></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_TOP_IMG_1.gif" style="display:block;" width="8" height="6"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_A_LEFT_TOP_IMG_1.gif" style="display:block;" width="8" height="6"></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_A_CENTERTOP_IMG_1.gif" style="display:block;" height="6" class="SSSTABWIDTH"></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_A_RIGHT_TOP_IMG_1.gif" style="display:block;" width="8" height="6"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_TOP_IMG_1.gif" style="display:block;" width="8" height="6"></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_CENTERTOP_IMG_1.gif" style="display:block;" height="6" class="SSSTABWIDTH"></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_TOP_IMG_1.gif" style="display:block;" width="8" height="6"></td></tr><tr><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="15"></td>
+<td class="SSSTABINACTIVE" width="25%"><a href="/psc/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.CLASS_SEARCH.GBL?Page=SSR_CLSRCH_ENTRY&Action=U" class="SSSTABMAINTEXT" >Search</a></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="15"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="15"></td>
+<td class="SSSTABINACTIVE" width="25%"><a href="/psc/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.SSS_MY_PLANNER.GBL?Page=SSS_MY_PLANNER&Action=A" class="SSSTABMAINTEXT" >Plan</a></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="15"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_A_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="15"></td>
+<td class="SSSTABACTIVE" width="25%"><a href="/psc/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.SSR_SSENRL_CART.GBL?Page=SSR_SSENRL_CART&Action=A" class="SSSTABMAINTEXT" >Enroll</a></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_A_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="15"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="15"></td>
+<td class="SSSTABINACTIVE" width="25%"><a href="/psc/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.SSS_MY_ACAD.GBL?Page=SSS_MY_ACAD&Action=U" class="SSSTABMAINTEXT" >My Academics</a></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="15"></td></tr><tr><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_BOTTOM_IMG_1.gif" style="display:block;" width="8" height="2"></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_CENTERBOTTOM_IMG_1.gif" style="display:block;" height="2" class="SSSTABWIDTH"></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_BOTTOM_IMG_1.gif" style="display:block;" width="8" height="2"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_BOTTOM_IMG_1.gif" style="display:block;" width="8" height="2"></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_CENTERBOTTOM_IMG_1.gif" style="display:block;" height="2" class="SSSTABWIDTH"></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_BOTTOM_IMG_1.gif" style="display:block;" width="8" height="2"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_A_LEFT_BOTTOM_IMG_1.gif" style="display:block;" width="8" height="2"></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_A_CENTERBOTTOM_IMG_1.gif" style="display:block;" height="2" class="SSSTABWIDTH"></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_A_RIGHT_BOTTOM_IMG_1.gif" style="display:block;" width="8" height="2"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_BOTTOM_IMG_1.gif" style="display:block;" width="8" height="2"></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_CENTERBOTTOM_IMG_1.gif" style="display:block;" height="2" class="SSSTABWIDTH"></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_BOTTOM_IMG_1.gif" style="display:block;" width="8" height="2"></td></tr></table>
+<!-- End HTML Area -->
+</div>
+</DIV></td>
+</tr>
+<tr>
+<td height='23'></td>
+<td  valign='top' align='left'>
+<DIV id='win0divDERIVED_SSTSNAV_SSTS_NAV_STABS_DIS'><div style="width:1px; " >
+<!-- Begin HTML Area Name Undisclosed -->
+
+<!-- End HTML Area -->
+</div>
+</DIV></td>
+<td colspan='4'  valign='top' align='left'>
+<DIV id='win0divDERIVED_SSTSNAV_SSTS_NAV_SUBTABS'><div style="width:604px; " >
+<!-- Begin HTML Area Name Undisclosed -->
+<table width=100% border="0" cellspacing="0" cellpadding="0"><tr><td><img src="/cs/prcsprd/cache/PS_CS_TAB_A_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="2"></td>
+<td class="SSSTABACTIVE" height="2"> </td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_A_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="2"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="2"></td>
+<td class="SSSTABINACTIVE" height="2"> </td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="2"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="2"></td>
+<td class="SSSTABINACTIVE" height="2"> </td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="2"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="2"></td>
+<td class="SSSTABINACTIVE" height="2"> </td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="2"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="2"></td>
+<td class="SSSTABINACTIVE" height="2"> </td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="2"></td></tr><tr><td><img src="/cs/prcsprd/cache/PS_CS_TAB_A_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="15"></td>
+<td class="SSSTABACTIVE" width="20%"><a href="/psc/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.SSR_SSENRL_LIST.GBL?Page=SSR_SSENRL_LIST&Action=A" class="SSSTABMAINTEXT" >my class schedule</a></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_A_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="15"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="15"></td>
+<td class="SSSTABINACTIVE" width="20%"><a href="/psc/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.SSR_SSENRL_CART.GBL?Page=SSR_SSENRL_CART&Action=A" class="SSSTABMAINTEXT" >add</a></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="15"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="15"></td>
+<td class="SSSTABINACTIVE" width="20%"><a href="/psc/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.SSR_SSENRL_DROP.GBL?Page=SSR_SSENRL_DROP&Action=A" class="SSSTABMAINTEXT" >drop</a></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="15"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="15"></td>
+<td class="SSSTABINACTIVE" width="20%"><a href="/psc/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.SSR_SSENRL_SWAP.GBL?Page=SSR_SSENRL_SWAP&Action=A" class="SSSTABMAINTEXT" >swap</a></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="15"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="15"></td>
+<td class="SSSTABINACTIVE" width="20%"><a href="/psc/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.SSR_SS_TERM_LINKS.GBL?Page=SSR_SS_TERM_LINKS&Action=A" class="SSSTABMAINTEXT" >term information</a></td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="15"></td></tr><tr><td><img src="/cs/prcsprd/cache/PS_CS_TAB_A_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="1"></td>
+<td class="SSSTABACTIVE" height="1"> </td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_A_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="1"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="1"></td>
+<td class="SSSTABINACTIVE" height="1"> </td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="1"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="1"></td>
+<td class="SSSTABINACTIVE" height="1"> </td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="1"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="1"></td>
+<td class="SSSTABINACTIVE" height="1"> </td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="1"></td><td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_LEFT_CENTER_IMG_1.gif" style="display:block;" width="8" height="1"></td>
+<td class="SSSTABINACTIVE" height="1"> </td>
+<td><img src="/cs/prcsprd/cache/PS_CS_TAB_IA_RIGHT_CENTER_IMG_1.gif" style="display:block;" width="8" height="1"></td></tr></table>
+<!-- End HTML Area -->
+</div>
+</DIV></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='1' colspan='4'></td>
+</tr>
+<tr>
+<td height='13' colspan='2'></td>
+<td colspan='2'  valign='top' align='left'>
+<DIV id='win0divDERIVED_REGFRM1_SS_TRANSACT_TITLE'><span  class='PATRANSACTIONTITLE' id='DERIVED_REGFRM1_SS_TRANSACT_TITLE'>My Class Schedule</span>
+</DIV></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='10' colspan='12'></td>
+</tr>
+<tr>
+<td height='36' colspan='3'></td>
+<td colspan='4'  valign='top' align='left'>
+<DIV id='win0divDERIVED_REGFRM1_SSR_SCHED_FORMAT'><table cellpadding='2' cellspacing='0' cols='1'  class='PABACKGROUNDINVISIBLEWBO'  width='413'>
+<tr><td width='411'>
+<table  border='0' id='ACE_DERIVED_REGFRM1_SSR_SCHED_FORMAT' cellpadding='0' cellspacing='0' cols='4' width='411' class='PABACKGROUNDINVISIBLE' style='border-style:none' >
+<tr>
+<td width='5' height='4'></td>
+<td width='132'></td>
+<td width='84'></td>
+<td width='190'></td>
+</tr>
+<tr>
+<td height='2' colspan='2'></td>
+<td rowspan='2' nowrap='nowrap'  valign='top' align='left'>
+<DIV id='win0divDERIVED_REGFRM1_SSR_SCHED_FORMAT$38$'><input type='radio' name='DERIVED_REGFRM1_SSR_SCHED_FORMAT$38$' id='DERIVED_REGFRM1_SSR_SCHED_FORMAT$38$' class='PSRADIOBUTTON' tabindex='34' value="L" onclick="setupTimeout2();addchg_win0(this);submitAction_win0(this.form,this.name);"  /><label for='DERIVED_REGFRM1_SSR_SCHED_FORMAT$38$' id='DERIVED_REGFRM1_SSR_SCHED_FORMAT$38$_LBL' class='PSRADIOBUTTON' >List View</label>
+
+</DIV></td>
+<td rowspan='2' nowrap='nowrap'  valign='top' align='left'>
+<DIV id='win0divDERIVED_REGFRM1_SSR_SCHED_FORMAT$39$'><input type='radio' name='DERIVED_REGFRM1_SSR_SCHED_FORMAT$38$' id='DERIVED_REGFRM1_SSR_SCHED_FORMAT$39$' class='PSRADIOBUTTON' tabindex='35' value="W" checked='checked' onclick="setupTimeout2();addchg_win0(this);submitAction_win0(this.form,this.name);"  /><label for='DERIVED_REGFRM1_SSR_SCHED_FORMAT$39$' id='DERIVED_REGFRM1_SSR_SCHED_FORMAT$39$_LBL' class='PSRADIOBUTTON' >Weekly Calendar View</label>
+
+</DIV></td>
+</tr>
+<tr>
+<td height='14'></td>
+<td  valign='top' align='left'>
+<DIV id='win0divDERIVED_REGFRM1_SSR_SCHED_FORMAT$37$lbl'><span  class='SSSTEXTTURQBOLD' >Select Display Option</span> </DIV></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='8' colspan='12'></td>
+</tr>
+<tr>
+<td height='16' colspan='4'></td>
+<td colspan='2'  valign='top' align='left'>
+<DIV id='win0div$ICField41'><table cellpadding='2' cellspacing='0' cols='1'  class='PABACKGROUNDINVISIBLEWBO'  width='92'>
+<tr><td width='90' height='14'>
+</td></tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='4' colspan='12'></td>
+</tr>
+<tr>
+<td height='32' colspan='4'></td>
+<td colspan='7'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_GROUPBOX1'><table cellpadding='2' cellspacing='0' cols='1'  class='PABACKGROUNDINVISIBLEWBO'  width='759'>
+<tr><td width='757'>
+<table  border='0' id='ACE_DERIVED_CLASS_S_GROUPBOX1' cellpadding='0' cellspacing='0' cols='7' width='757' class='PABACKGROUNDINVISIBLE' style='border-style:none' >
+<tr>
+<td width='43' height='0'></td>
+<td width='160'></td>
+<td width='8'></td>
+<td width='312'></td>
+<td width='4'></td>
+<td width='160'></td>
+<td width='70'></td>
+</tr>
+<tr>
+<td height='4'></td>
+<td rowspan='2'  valign='top' align='left'>
+<DIV id='win0div$ICField43'><table cellpadding='2' cellspacing='0' cols='1'  class='PABACKGROUNDINVISIBLEWBO'  width='159'>
+<tr><td width='157'>
+<table  border='0' id='ACE_$ICField43' cellpadding='0' cellspacing='0' cols='2' width='157' class='PABACKGROUNDINVISIBLE' style='border-style:none' >
+<tr>
+<td width='7' height='5'></td>
+<td width='150'></td>
+</tr>
+<tr>
+<td height='13'></td>
+<td  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_SSR_PREV_WEEK'><span  class='SSSBUTTON_ACTIONLINK' ><a name='DERIVED_CLASS_S_SSR_PREV_WEEK' id='DERIVED_CLASS_S_SSR_PREV_WEEK' ptlinktgt='pt_peoplecode' tabindex='36' href="javascript:submitAction_win0(document.win0,'DERIVED_CLASS_S_SSR_PREV_WEEK');"  class='SSSBUTTON_ACTIONLINK' >&lt;&lt; Previous Week</a></span>
+</DIV></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</DIV></td>
+<td colspan='3'></td>
+<td rowspan='2'  valign='top' align='left'>
+<DIV id='win0div$ICField46'><table cellpadding='2' cellspacing='0' cols='1'  class='PABACKGROUNDINVISIBLEWBO'  width='159'>
+<tr><td width='157'>
+<table  border='0' id='ACE_$ICField46' cellpadding='0' cellspacing='0' cols='2' width='157' class='PABACKGROUNDINVISIBLE' style='border-style:none' >
+<tr>
+<td width='7' height='5'></td>
+<td width='150'></td>
+</tr>
+<tr>
+<td height='13'></td>
+<td  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_SSR_NEXT_WEEK'><span  class='SSSBUTTON_ACTIONLINK' ><a name='DERIVED_CLASS_S_SSR_NEXT_WEEK' id='DERIVED_CLASS_S_SSR_NEXT_WEEK' ptlinktgt='pt_peoplecode' tabindex='37' href="javascript:submitAction_win0(document.win0,'DERIVED_CLASS_S_SSR_NEXT_WEEK');"  class='SSSBUTTON_ACTIONLINK' >Next Week &gt;&gt;</a></span>
+</DIV></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='16'></td>
+<td rowspan='2'></td>
+<td rowspan='2'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_DESCR100_2'><table cellpadding='2' cellspacing='0' cols='1'  class='PABACKGROUNDINVISIBLEWBO'  width='312'>
+<tr><td class='SSSGROUPBOXGREEN'  align='CENTER'>Week of 2016/1/11 - 2016/1/17</td></tr>
+<tr><td width='310' height='4'>
+</td></tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='3' colspan='2'></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='4' colspan='12'></td>
+</tr>
+<tr>
+<td height='40' colspan='5'></td>
+<td colspan='5'  valign='top' align='left'>
+<DIV id='win0div$ICField48'><table cellpadding='2' cellspacing='0' cols='1'  class='SSSKEYFRAMEWBO'  width='651'>
+<tr><td width='647'>
+<table  border='0' id='ACE_$ICField48' cellpadding='0' cellspacing='0' cols='9' width='647' class='SSSKEYFRAME' style='border-style:none' >
+<tr>
+<td width='38' height='4'></td>
+<td width='88'></td>
+<td width='104'></td>
+<td width='64'></td>
+<td width='64'></td>
+<td width='56'></td>
+<td width='72'></td>
+<td width='160'></td>
+<td width='1'></td>
+</tr>
+<tr>
+<td height='3' colspan='7'></td>
+<td rowspan='3'  valign='top' align='left'>
+<DIV id='win0div$ICField52'><table cellpadding='2' cellspacing='0' cols='1'  class='PABACKGROUNDINVISIBLEWBO'  width='159'>
+<tr><td width='157'>
+<table  border='0' id='ACE_$ICField52' cellpadding='0' cellspacing='0' cols='2' width='157' class='PABACKGROUNDINVISIBLE' style='border-style:none' >
+<tr>
+<td width='7' height='3'></td>
+<td width='150'></td>
+</tr>
+<tr>
+<td height='15'></td>
+<td  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_SSR_REFRESH_CAL'><span  class='SSSBUTTON_BLUELINK' ><a name='DERIVED_CLASS_S_SSR_REFRESH_CAL' id='DERIVED_CLASS_S_SSR_REFRESH_CAL' ptlinktgt='pt_peoplecode' tabindex='42' href="javascript:submitAction_win0(document.win0,'DERIVED_CLASS_S_SSR_REFRESH_CAL');"  class='SSSBUTTON_BLUELINK' >Refresh Calendar</a></span>
+</DIV></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='2' colspan='2'></td>
+<td rowspan='3' nowrap='nowrap'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_START_DT'><input type='text' name='DERIVED_CLASS_S_START_DT' id='DERIVED_CLASS_S_START_DT' tabindex='38' value="2016/01/17"  class='PSEDITBOX' style='width:72px; ' maxlength='10' onchange="addchg_win0(this);return doEdits_win0(this,'DYMD/450','N','N','N','N','N','N',0);" onkeyup="if (isPromptKey(event))DatePrompt_win0('DERIVED_CLASS_S_START_DT','DERIVED_CLASS_S_START_DT','450',false);return false;" /><a name='DERIVED_CLASS_S_START_DT$prompt' id='DERIVED_CLASS_S_START_DT$prompt' class='PSHYPERLINK' tabindex='39' onfocus='doFocus_win0(this,true,false);' href="javascript:DatePrompt_win0('DERIVED_CLASS_S_START_DT','DERIVED_CLASS_S_START_DT$prompt','450',false);"><img src="/cs/prcsprd/cache/PT_CALENDAR_1.gif" alt='Choose a date (Alt+5)' title='Choose a date (Alt+5)' border='0' align='absmiddle' /></a>
+</DIV></td>
+<td></td>
+<td rowspan='3' nowrap='nowrap'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_MEETING_TIME_START'><input type='text' name='DERIVED_CLASS_S_MEETING_TIME_START' id='DERIVED_CLASS_S_MEETING_TIME_START' tabindex='40' value="8:00AM"  class='PSEDITBOX' style='width:52px; ' maxlength='7' onchange="addchg_win0(this);return doEdits_win0(this,'TPM;AM','N','N','N','N','N','N',0);"  />
+</DIV></td>
+<td></td>
+<td rowspan='3' nowrap='nowrap'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_MEETING_TIME_END'><input type='text' name='DERIVED_CLASS_S_MEETING_TIME_END' id='DERIVED_CLASS_S_MEETING_TIME_END' tabindex='41' value="10:00PM"  class='PSEDITBOX' style='width:52px; ' maxlength='7' onchange="addchg_win0(this);return doEdits_win0(this,'TPM;AM','N','N','N','N','N','N',0);"  />
+</DIV></td>
+</tr>
+<tr>
+<td height='15'></td>
+<td rowspan='2'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_START_DTlbl'><label for='DERIVED_CLASS_S_START_DT' id='DERIVED_CLASS_S_START_DT_LBL' class='SSSTEXTTURQBOLD' >Show Week of</label>
+</DIV></td>
+<td rowspan='2'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_MEETING_TIME_STARTlbl'><label for='DERIVED_CLASS_S_MEETING_TIME_START' id='DERIVED_CLASS_S_MEETING_TIME_START_LBL' class='SSSTEXTTURQBOLD' >Start Time</label>
+</DIV></td>
+<td rowspan='2'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_MEETING_TIME_ENDlbl'><label for='DERIVED_CLASS_S_MEETING_TIME_END' id='DERIVED_CLASS_S_MEETING_TIME_END_LBL' class='SSSTEXTTURQBOLD' >End Time</label>
+</DIV></td>
+</tr>
+<tr>
+<td height='10'></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='4' colspan='12'></td>
+</tr>
+<tr>
+<td height='27' colspan='3'></td>
+<td colspan='8'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_'><table cellpadding='2' cellspacing='0' cols='1'  class='PABACKGROUNDINVISIBLEWBO'  width='763'>
+<tr><td width='761'>
+<table  border='0' id='ACE_DERIVED_CLASS_S_' cellpadding='0' cellspacing='0' cols='2' width='761' class='PABACKGROUNDINVISIBLE' style='border-style:none' >
+<tr>
+<td width='3' height='0'></td>
+<td width='758'></td>
+</tr>
+<tr>
+<td height='21'></td>
+<td  valign='top' align='left'>
+<DIV id='win0divSSR_DUMMY_REC$0'><table cellspacing='0' class='PSLEVEL1GRIDNBO'  id='SSR_DUMMY_REC$scroll$0' dir='ltr' cols='1' width='760' cellpadding='2'>
+<tr id='trSSR_DUMMY_REC$0_row1' valign='center'>
+<td align='center'  width='702' height='18' class='PABACKGROUNDINVISIBLE' >
+<DIV id='win0divDERIVED_CLASS_S_HTMLAREA$0'><div style="min-width:702px; " >
+<!-- Begin HTML Area Name Undisclosed -->
+</div><!--  close Tools-generated div -->
+<div>
+
+<table cellspacing='0' cellpadding='2' width='100%' class='PSLEVEL1GRIDNBO' id='WEEKLY_SCHED_HTMLAREA'>
+<colgroup span='1' width='9%' align='center' valign='middle'>
+<colgroup span='7' width='13%' align='center' valign='middle'><tr><th scope='col' align='center' class='SSSWEEKLYA1BACKGROUND' >Time</th><th scope='col' align='center' class='SSSWEEKLYDAYBACKGROUND' >Monday<br>Jan 11</th><th scope='col' align='center' class='SSSWEEKLYDAYBACKGROUND' >Tuesday<br>Jan 12</th><th scope='col' align='center' class='SSSWEEKLYDAYBACKGROUND' >Wednesday<br>Jan 13</th><th scope='col' align='center' class='SSSWEEKLYDAYBACKGROUND' >Thursday<br>Jan 14</th><th scope='col' align='center' class='SSSWEEKLYDAYBACKGROUND' >Friday<br>Jan 15</th><th scope='col' align='center' class='SSSWEEKLYDAYBACKGROUND' >Saturday<br>Jan 16</th><th scope='col' align='center' class='SSSWEEKLYDAYBACKGROUND' >Sunday<br>Jan 17</th></tr><tr><td class='SSSWEEKLYTIMEBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLYTIME' >8:00AM</span></td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td></tr><tr><td class='PSLEVEL3GRID'>&nbsp;</td><td class='SSSWEEKLYBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLY' >SFWRENG    4X03 - C01<br>Lecture<br>8:30AM - 9:20AM<br>Hamilton Hall 302</span></td><td class='SSSWEEKLYBACKGROUND' rowspan='6'><span class='SSSTEXTWEEKLY' >SFWRENG    3SH3 - L01<br>Laboratory<br>8:30AM - 11:20AM<br>Information Technology Bldg 235</span></td><td class='SSSWEEKLYBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLY' >SFWRENG    4X03 - C01<br>Lecture<br>8:30AM - 9:20AM<br>Hamilton Hall 302</span></td><td class='SSSWEEKLYBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLY' >SFWRENG    4X03 - C01<br>Lecture<br>8:30AM - 9:20AM<br>Hamilton Hall 302</span></td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td></tr><tr><td class='SSSWEEKLYTIMEBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLYTIME' >9:00AM</span></td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td></tr><tr><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td></tr><tr><td class='SSSWEEKLYTIMEBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLYTIME' >10:00AM</span></td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td></tr><tr><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td></tr><tr><td class='SSSWEEKLYTIMEBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLYTIME' >11:00AM</span></td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td></tr><tr><td class='SSSWEEKLYBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLY' >SFWRENG    4X03 - T01<br>Tutorial<br>11:30AM - 12:20PM<br>Burke Science Bldg. B136</span></td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td></tr><tr><td class='SSSWEEKLYTIMEBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLYTIME' >12:00PM</span></td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td></tr><tr><td class='SSSWEEKLYBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLY' >MECHTRON    3TB4 - C02<br>Lecture<br>12:30PM - 1:20PM<br>Hamilton Hall 104</span></td><td class='SSSWEEKLYBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLY' >ENGINEER    3N03 - C01<br>Lecture<br>12:30PM - 1:20PM<br>Chester New Hall B107</span></td><td class='SSSWEEKLYBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLY' >ENGINEER    3N03 - C01<br>Lecture<br>12:30PM - 1:20PM<br>Chester New Hall B107</span></td><td class='SSSWEEKLYBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLY' >MECHTRON    3TB4 - C02<br>Lecture<br>12:30PM - 1:20PM<br>Hamilton Hall 104</span></td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td></tr><tr><td class='SSSWEEKLYTIMEBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLYTIME' >1:00PM</span></td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td></tr><tr><td class='PSLEVEL3GRID'>&nbsp;</td><td class='SSSWEEKLYBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLY' >MECHTRON    3TB4 - C02<br>Lecture<br>1:30PM - 2:20PM<br>Hamilton Hall 104</span></td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td></tr><tr><td class='SSSWEEKLYTIMEBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLYTIME' >2:00PM</span></td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td></tr><tr><td class='SSSWEEKLYBACKGROUND' rowspan='6'><span class='SSSTEXTWEEKLY' >ENGINEER    3N03 - L02<br>Laboratory<br>2:30PM - 5:20PM<br>Information Technology Bldg AB106</span></td><td class='SSSWEEKLYBACKGROUND' rowspan='4'><span class='SSSTEXTWEEKLY' >SFWRENG    3I03 - T04<br>Tutorial<br>2:30PM - 4:20PM<br>Hamilton Hall 305</span></td><td class='SSSWEEKLYBACKGROUND' rowspan='6'><span class='SSSTEXTWEEKLY' >MECHTRON    3TB4 - L02<br>Laboratory<br>2:30PM - 5:20PM<br>Information Technology Bldg 238</span></td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='SSSWEEKLYBACKGROUND' rowspan='6'><span class='SSSTEXTWEEKLY' >MECHTRON    3DX4 - L01<br>Laboratory<br>2:30PM - 5:20PM<br>Information Technology Bldg 134</span></td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td></tr><tr><td class='SSSWEEKLYTIMEBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLYTIME' >3:00PM</span></td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td></tr><tr><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td></tr><tr><td class='SSSWEEKLYTIMEBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLYTIME' >4:00PM</span></td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td></tr><tr><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td></tr><tr><td class='SSSWEEKLYTIMEBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLYTIME' >5:00PM</span></td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td></tr><tr><td class='SSSWEEKLYBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLY' >MECHTRON    3DX4 - C01<br>Lecture<br>5:30PM - 6:20PM<br>Kenneth Taylor Hall B135</span></td><td class='SSSWEEKLYBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLY' >SFWRENG    3I03 - C01<br>Lecture<br>5:30PM - 6:20PM<br>John Hodgins Engineer Bldg 376</span></td><td class='SSSWEEKLYBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLY' >MECHTRON    3DX4 - C01<br>Lecture<br>5:30PM - 6:20PM<br>Kenneth Taylor Hall B135</span></td><td class='SSSWEEKLYBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLY' >MECHTRON    3DX4 - C01<br>Lecture<br>5:30PM - 6:20PM<br>Kenneth Taylor Hall B135</span></td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td></tr><tr><td class='SSSWEEKLYTIMEBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLYTIME' >6:00PM</span></td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td></tr><tr><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td></tr><tr><td class='SSSWEEKLYTIMEBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLYTIME' >7:00PM</span></td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYBACKGROUND' rowspan='6'><span class='SSSTEXTWEEKLY' >SFWRENG    3SH3 - C01<br>Lecture<br>7:00PM - 10:00PM<br>Michael G. DeGroote Cntr 1102</span></td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td></tr><tr><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td></tr><tr><td class='SSSWEEKLYTIMEBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLYTIME' >8:00PM</span></td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td></tr><tr><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td></tr><tr><td class='SSSWEEKLYTIMEBACKGROUND' rowspan='2'><span class='SSSTEXTWEEKLYTIME' >9:00PM</span></td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td><td class='SSSWEEKLYLTLINE'>&nbsp;</td></tr><tr><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td></tr><tr><td class='SSSWEEKLYTIMEBACKGROUND' rowspan='1'><span class='SSSTEXTWEEKLYTIME' >10:00PM</span></td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td><td class='PSLEVEL3GRID'>&nbsp;</td></tr></table></div>
+<!-- End HTML Area -->
+</div>
+</DIV></td>
+</tr>
+</table>
+</DIV></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='10' colspan='12'></td>
+</tr>
+<tr>
+<td height='92' colspan='4'></td>
+<td colspan='7'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_MONDAY_LBL'><table cellpadding='2' cellspacing='0' cols='1'  class='PSGROUPBOXWBO'  width='759'>
+<tr><td class='PSGROUPBOXLABEL'  align='left'><DIV id='win0divDERIVED_CLASS_S_MONDAY_LBLGP'><a class='PSHYPERLINK' name='DERIVED_CLASS_S_MONDAY_LBL' id='DERIVED_CLASS_S_MONDAY_LBL' tabindex='183' href="javascript:submitAction_win0(document.win0,'DERIVED_CLASS_S_MONDAY_LBL');"><img src='/cs/prcsprd/cache/PT_COLLAPSE_1.GIF' alt='Collapse section Display Options' title='Collapse section' border='0' /></a>&nbsp;Display Options&nbsp;</DIV></td></tr>
+<tr><td width='757'>
+<table  border='0' id='ACE_DERIVED_CLASS_S_MONDAY_LBL' cellpadding='0' cellspacing='0' cols='7' width='757' class='PSGROUPBOX' style='border-style:none' >
+<tr>
+<td width='11' height='5'></td>
+<td width='200'></td>
+<td width='144'></td>
+<td width='132'></td>
+<td width='76'></td>
+<td width='132'></td>
+<td width='62'></td>
+</tr>
+<tr>
+<td height='11'></td>
+<td rowspan='3' nowrap='nowrap'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_SHOW_AM_PM'><input type='hidden' name='DERIVED_CLASS_S_SHOW_AM_PM$chk' id='DERIVED_CLASS_S_SHOW_AM_PM$chk' value="Y" />
+<input type='checkbox' name='DERIVED_CLASS_S_SHOW_AM_PM' id='DERIVED_CLASS_S_SHOW_AM_PM' class='PSCHECKBOX' tabindex='184' value="Y" checked='checked' onclick="setupTimeout2();	this.form.DERIVED_CLASS_S_SHOW_AM_PM$chk.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" /><label for='DERIVED_CLASS_S_SHOW_AM_PM' id='DERIVED_CLASS_S_SHOW_AM_PM_LBL' class='PSCHECKBOX' >Show AM/PM</label>
+
+</DIV></td>
+<td rowspan='3' nowrap='nowrap'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_MONDAY_LBL$81$'><input type='hidden' name='DERIVED_CLASS_S_MONDAY_LBL$81$$chk' id='DERIVED_CLASS_S_MONDAY_LBL$81$$chk' value="Y" />
+<input type='checkbox' name='DERIVED_CLASS_S_MONDAY_LBL$81$' id='DERIVED_CLASS_S_MONDAY_LBL$81$' class='PSCHECKBOX' tabindex='187' value="Y" checked='checked' onclick="setupTimeout2();	this.form.DERIVED_CLASS_S_MONDAY_LBL$81$$chk.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" /><label for='DERIVED_CLASS_S_MONDAY_LBL$81$' id='DERIVED_CLASS_S_MONDAY_LBL$81$_LBL' class='PSCHECKBOX' >Monday</label>
+
+</DIV></td>
+<td colspan='2' rowspan='2' nowrap='nowrap'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_THURSDAY_LBL'><input type='hidden' name='DERIVED_CLASS_S_THURSDAY_LBL$chk' id='DERIVED_CLASS_S_THURSDAY_LBL$chk' value="Y" />
+<input type='checkbox' name='DERIVED_CLASS_S_THURSDAY_LBL' id='DERIVED_CLASS_S_THURSDAY_LBL' class='PSCHECKBOX' tabindex='190' value="Y" checked='checked' onclick="setupTimeout2();	this.form.DERIVED_CLASS_S_THURSDAY_LBL$chk.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" /><label for='DERIVED_CLASS_S_THURSDAY_LBL' id='DERIVED_CLASS_S_THURSDAY_LBL_LBL' class='PSCHECKBOX' >Thursday</label>
+
+</DIV></td>
+</tr>
+<tr>
+<td height='9'></td>
+<td rowspan='3'  valign='top' align='left'>
+<DIV id='win0div$ICField85'><table cellpadding='2' cellspacing='0' cols='1'  class='PABACKGROUNDINVISIBLEWBO'  width='131'>
+<tr><td width='129'>
+<table  border='0' id='ACE_$ICField85' cellpadding='0' cellspacing='0' cols='2' width='129' class='PABACKGROUNDINVISIBLE' style='border-style:none' >
+<tr>
+<td width='3' height='9'></td>
+<td width='126'></td>
+</tr>
+<tr>
+<td height='13'></td>
+<td  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_SSR_REFRESH_CAL$89$'><span  class='SSSBUTTON_BLUELINK' ><a name='DERIVED_CLASS_S_SSR_REFRESH_CAL$89$' id='DERIVED_CLASS_S_SSR_REFRESH_CAL$89$' ptlinktgt='pt_peoplecode' tabindex='194' href="javascript:submitAction_win0(document.win0,'DERIVED_CLASS_S_SSR_REFRESH_CAL$89$');"  class='SSSBUTTON_BLUELINK' >Refresh Calendar</a></span>
+</DIV></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='4'></td>
+<td></td>
+<td rowspan='3' nowrap='nowrap'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_SUNDAY_LBL'><input type='hidden' name='DERIVED_CLASS_S_SUNDAY_LBL$chk' id='DERIVED_CLASS_S_SUNDAY_LBL$chk' value="Y" />
+<input type='checkbox' name='DERIVED_CLASS_S_SUNDAY_LBL' id='DERIVED_CLASS_S_SUNDAY_LBL' class='PSCHECKBOX' tabindex='193' value="Y" checked='checked' onclick="setupTimeout2();	this.form.DERIVED_CLASS_S_SUNDAY_LBL$chk.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" /><label for='DERIVED_CLASS_S_SUNDAY_LBL' id='DERIVED_CLASS_S_SUNDAY_LBL_LBL' class='PSCHECKBOX' >Sunday</label>
+
+</DIV></td>
+</tr>
+<tr>
+<td height='11'></td>
+<td rowspan='2' nowrap='nowrap'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_SSR_DISP_TITLE'><input type='hidden' name='DERIVED_CLASS_S_SSR_DISP_TITLE$chk' id='DERIVED_CLASS_S_SSR_DISP_TITLE$chk' value="N" />
+<input type='checkbox' name='DERIVED_CLASS_S_SSR_DISP_TITLE' id='DERIVED_CLASS_S_SSR_DISP_TITLE' class='PSCHECKBOX' tabindex='185' value="Y" onclick="setupTimeout2();	this.form.DERIVED_CLASS_S_SSR_DISP_TITLE$chk.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" /><label for='DERIVED_CLASS_S_SSR_DISP_TITLE' id='DERIVED_CLASS_S_SSR_DISP_TITLE_LBL' class='PSCHECKBOX' >Show Class Title</label>
+
+</DIV></td>
+<td rowspan='2' nowrap='nowrap'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_TUESDAY_LBL'><input type='hidden' name='DERIVED_CLASS_S_TUESDAY_LBL$chk' id='DERIVED_CLASS_S_TUESDAY_LBL$chk' value="Y" />
+<input type='checkbox' name='DERIVED_CLASS_S_TUESDAY_LBL' id='DERIVED_CLASS_S_TUESDAY_LBL' class='PSCHECKBOX' tabindex='188' value="Y" checked='checked' onclick="setupTimeout2();	this.form.DERIVED_CLASS_S_TUESDAY_LBL$chk.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" /><label for='DERIVED_CLASS_S_TUESDAY_LBL' id='DERIVED_CLASS_S_TUESDAY_LBL_LBL' class='PSCHECKBOX' >Tuesday</label>
+
+</DIV></td>
+<td rowspan='2' nowrap='nowrap'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_FRIDAY_LBL'><input type='hidden' name='DERIVED_CLASS_S_FRIDAY_LBL$chk' id='DERIVED_CLASS_S_FRIDAY_LBL$chk' value="Y" />
+<input type='checkbox' name='DERIVED_CLASS_S_FRIDAY_LBL' id='DERIVED_CLASS_S_FRIDAY_LBL' class='PSCHECKBOX' tabindex='191' value="Y" checked='checked' onclick="setupTimeout2();	this.form.DERIVED_CLASS_S_FRIDAY_LBL$chk.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" /><label for='DERIVED_CLASS_S_FRIDAY_LBL' id='DERIVED_CLASS_S_FRIDAY_LBL_LBL' class='PSCHECKBOX' >Friday</label>
+
+</DIV></td>
+</tr>
+<tr>
+<td height='10'></td>
+</tr>
+<tr>
+<td height='21'></td>
+<td nowrap='nowrap'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_SHOW_INSTR'><input type='hidden' name='DERIVED_CLASS_S_SHOW_INSTR$chk' id='DERIVED_CLASS_S_SHOW_INSTR$chk' value="N" />
+<input type='checkbox' name='DERIVED_CLASS_S_SHOW_INSTR' id='DERIVED_CLASS_S_SHOW_INSTR' class='PSCHECKBOX' tabindex='186' value="Y" onclick="setupTimeout2();	this.form.DERIVED_CLASS_S_SHOW_INSTR$chk.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" /><label for='DERIVED_CLASS_S_SHOW_INSTR' id='DERIVED_CLASS_S_SHOW_INSTR_LBL' class='PSCHECKBOX' >Show Instructors</label>
+
+</DIV></td>
+<td nowrap='nowrap'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_WEDNESDAY_LBL'><input type='hidden' name='DERIVED_CLASS_S_WEDNESDAY_LBL$chk' id='DERIVED_CLASS_S_WEDNESDAY_LBL$chk' value="Y" />
+<input type='checkbox' name='DERIVED_CLASS_S_WEDNESDAY_LBL' id='DERIVED_CLASS_S_WEDNESDAY_LBL' class='PSCHECKBOX' tabindex='189' value="Y" checked='checked' onclick="setupTimeout2();	this.form.DERIVED_CLASS_S_WEDNESDAY_LBL$chk.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" /><label for='DERIVED_CLASS_S_WEDNESDAY_LBL' id='DERIVED_CLASS_S_WEDNESDAY_LBL_LBL' class='PSCHECKBOX' >Wednesday</label>
+
+</DIV></td>
+<td colspan='4' nowrap='nowrap'  valign='top' align='left'>
+<DIV id='win0divDERIVED_CLASS_S_SATURDAY_LBL'><input type='hidden' name='DERIVED_CLASS_S_SATURDAY_LBL$chk' id='DERIVED_CLASS_S_SATURDAY_LBL$chk' value="Y" />
+<input type='checkbox' name='DERIVED_CLASS_S_SATURDAY_LBL' id='DERIVED_CLASS_S_SATURDAY_LBL' class='PSCHECKBOX' tabindex='192' value="Y" checked='checked' onclick="setupTimeout2();	this.form.DERIVED_CLASS_S_SATURDAY_LBL$chk.value=(this.checked?'Y':'N');doFocus_win0(this,false,true);" /><label for='DERIVED_CLASS_S_SATURDAY_LBL' id='DERIVED_CLASS_S_SATURDAY_LBL_LBL' class='PSCHECKBOX' >Saturday</label>
+
+</DIV></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='10' colspan='12'></td>
+</tr>
+<tr>
+<td height='26' colspan='9'></td>
+<td colspan='3' rowspan='3' nowrap='nowrap'  valign='top' align='left'>
+<DIV id='win0divDERIVED_REGFRM1_SA_LINK_PRINTER'><span  class='PSHYPERLINK' ><a name='DERIVED_REGFRM1_SA_LINK_PRINTER' id='DERIVED_REGFRM1_SA_LINK_PRINTER' ptlinktgt='pt_peoplecode' tabindex='196' href="javascript:submitAction_win0(document.win0,'DERIVED_REGFRM1_SA_LINK_PRINTER');"  class='PSHYPERLINK' >Printer Friendly Page</a></span>
+</DIV></td>
+</tr>
+<tr>
+<td height='100' colspan='2'></td>
+<td colspan='7'  valign='top' align='left'>
+<DIV id='win0divDERIVED_SSTSNAV_GROUP_BOX$95$'><table cellpadding='2' cellspacing='0' cols='1'  class='PABACKGROUNDINVISIBLEWBO'  width='651'>
+<tr><td width='649'>
+<table  border='0' id='ACE_DERIVED_SSTSNAV_GROUP_BOX$95$' cellpadding='0' cellspacing='0' cols='8' width='649' class='PABACKGROUNDINVISIBLE' style='border-style:none' >
+<tr>
+<td width='5' height='0'></td>
+<td width='2'></td>
+<td width='2'></td>
+<td width='36'></td>
+<td width='136'></td>
+<td width='444'></td>
+<td width='2'></td>
+<td width='22'></td>
+</tr>
+<tr>
+<td height='13'></td>
+<td colspan='5'  valign='top' align='left'>
+<hr width='100%' align='left'  class='PSHORIZONTALRULE'  />
+</td>
+</tr>
+<tr>
+<td height='20' colspan='2'></td>
+<td colspan='5'  valign='top' align='left'>
+<DIV id='win0divDERIVED_SSTSNAV_SSS_FOOTER_LINKS'><div style="width:620px; " >
+<!-- Begin HTML Area Name Undisclosed -->
+<table border="0" cellspacing="0" cellpadding="0"><tr><td>&nbsp;</td>
+<td><a href="/psc/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.CLASS_SEARCH.GBL?Page=SSR_CLSRCH_ENTRY&Action=U" class="SSSFOOTERLINKBOLD">Search</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td><td>&nbsp;</td>
+<td><a href="/psc/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.SSS_MY_PLANNER.GBL?Page=SSS_MY_PLANNER&Action=A" class="SSSFOOTERLINKBOLD">Plan</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td><td>&nbsp;</td>
+<td><a href="/psc/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.SSR_SSENRL_CART.GBL?Page=SSR_SSENRL_CART&Action=A" class="SSSFOOTERLINKBOLD">Enroll</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td><td>&nbsp;</td>
+<td><a href="/psc/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.SSS_MY_ACAD.GBL?Page=SSS_MY_ACAD&Action=U" class="SSSFOOTERLINKBOLD">My Academics</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr></tr></table>
+<!-- End HTML Area -->
+</div>
+</DIV></td>
+</tr>
+<tr>
+<td height='19' colspan='2'></td>
+<td colspan='5'  valign='top' align='left'>
+<DIV id='win0divDERIVED_SSTSNAV_SSS_SUBFOOT_LINKS'><div style="width:620px; " >
+<!-- Begin HTML Area Name Undisclosed -->
+<table border="0" cellspacing="0" cellpadding="0"><tr><td>&nbsp;</td>
+<td><a href="/psc/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.SSR_SSENRL_LIST.GBL?Page=SSR_SSENRL_LIST&Action=A" class="SSSFOOTERLINK">My Class Schedule</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td><td>&nbsp;</td>
+<td><a href="/psc/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.SSR_SSENRL_CART.GBL?Page=SSR_SSENRL_CART&Action=A" class="SSSFOOTERLINK">Add</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td><td>&nbsp;</td>
+<td><a href="/psc/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.SSR_SSENRL_DROP.GBL?Page=SSR_SSENRL_DROP&Action=A" class="SSSFOOTERLINK">Drop</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td><td>&nbsp;</td>
+<td><a href="/psc/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.SSR_SSENRL_SWAP.GBL?Page=SSR_SSENRL_SWAP&Action=A" class="SSSFOOTERLINK">Swap</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td><td>&nbsp;</td>
+<td><a href="/psc/prcsprd/EMPLOYEE/HRMS_LS/c/SA_LEARNER_SERVICES.SSR_SS_TERM_LINKS.GBL?Page=SSR_SS_TERM_LINKS&Action=A" class="SSSFOOTERLINK">Term Information</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr></tr></table>
+<!-- End HTML Area -->
+</div>
+</DIV></td>
+</tr>
+<tr>
+<td height='8' colspan='3'></td>
+<td  valign='top' align='left'>
+<DIV id='win0div$ICField101'><table cellpadding='2' cellspacing='0' cols='1'  class='PABACKGROUNDINVISIBLEWBO'  width='36'>
+<tr><td width='34' height='6'>
+</td></tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='28'></td>
+<td colspan='4'  valign='top' align='left'>
+<DIV id='win0divDERIVED_SSTSNAV_SSTS_MAIN_GOTO$102$'><table cellpadding='2' cellspacing='0' cols='1'  class='PABACKGROUNDINVISIBLEWBO'  width='175'>
+<tr><td width='173'>
+<table  border='0' id='ACE_DERIVED_SSTSNAV_SSTS_MAIN_GOTO$102$' cellpadding='0' cellspacing='0' cols='3' width='173' class='PABACKGROUNDINVISIBLE' style='border-style:none' >
+<tr>
+<td width='3' height='0'></td>
+<td width='148'></td>
+<td width='22'></td>
+</tr>
+<tr>
+<td height='1' colspan='2'></td>
+<td rowspan='2' nowrap='nowrap'  valign='top' align='left'>
+<DIV id='win0divDERIVED_SSTSNAV_GO$104$'><a name='DERIVED_SSTSNAV_GO$104$' id='DERIVED_SSTSNAV_GO$104$' tabindex='202' href="javascript:submitAction_win0(document.win0,'DERIVED_SSTSNAV_GO$104$');"><img src='/cs/prcsprd/cache/PT_NAV_GO_1.gif' name='DERIVED_SSTSNAV_GO$104$$IMG' alt='GO!'title='GO!'border='0' /></a>
+</DIV></td>
+</tr>
+<tr>
+<td height='22'></td>
+<td  valign='top' align='left'>
+<DIV id='win0divDERIVED_SSTSNAV_SSTS_MAIN_GOTO$103$'><select name='DERIVED_SSTSNAV_SSTS_MAIN_GOTO$103$' id='DERIVED_SSTSNAV_SSTS_MAIN_GOTO$103$' tabindex='201' size='1'  class='PSDROPDOWNLIST' style='width:148px; '  PSnchg='0'>
+<option value="0300">Account Inquiry</option>
+<option value="0200">My Academics</option>
+<option value="0100">Student Center</option>
+<option value="9999" selected='selected'>go to ...</option>
+</select>
+</DIV></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='7' colspan='8'></td>
+</tr>
+</table>
+</td></tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='9' colspan='9'></td>
+</tr>
+</table>
+</DIV></td></tr>
+</table>
+<div id='pt_dragtxt' class='PSLEVEL1GRIDCOLUMNHDR'></div><div onmouseup='ptGridResizeObj_win0.TDselUp();' onmousemove='ptGridResizeObj_win0.TDselMove();' id='pt_dragResize' onmouseout='ptGridResizeObj_win0.dragTD=false;' onmbouseover='ptGridResizeObj_win0.dragTD=true;'></div>]]>
+</FIELD>
+<SYSVAR id='sysvar'><![CDATA[bCleanHtml = false;
+bDefer = true;
+document.hiddenFldArr_win0 =new Array('ICType','ICElementNum','ICStateNum','ICAction','ICXPos','ICYPos','ResponsetoDiffFrame','TargetFrameName','FacetPath','ICFocus','ICSaveWarningFilter','ICChanged','ICResubmit','ICSID','ICActionPrompt','ICFind','ICAddCount','ICAPPCLSDATA');
+document.chgFldArr_win0 = new Array();
+var bCDATA = false;
+]]></SYSVAR></PAGE>

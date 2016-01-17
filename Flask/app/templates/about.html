@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style> 
+body {
+	background-image: url("/static/about.jpg");
+	background-size: cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-color: #122949;
+	color:white;
+}
+h1 {
+	position:relative;
+	top:162px;
+	left: 380px;
+}
+p {
+	font-size: 20px;
+	margin-right: 300px;
+	margin-left: 380px;
+	position: relative;
+	top:162px;
+}
+</style>
+	<html>
+	<head>
+		<title>About</title>
+	</head>
+	<body>
+			<h1>About</h1>
+			<p align="justify">Timeline was built in less than 24 hours as a hackathon project at DeltaHacks II. Here's to hoping it makes the Mosaic experience a lot less frustrating to all of you. </p>
+	</body>
+	</html>
+{% endblock %}
